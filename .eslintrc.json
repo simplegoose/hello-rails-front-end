@@ -9,7 +9,7 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": ["airbnb-base"],
+  "extends": ["airbnb", "plugin:react/recommended", "plugin:react-hooks/recommended"],
   "rules": {
     "no-shadow": "off",
     "no-param-reassign": "off",
