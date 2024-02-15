@@ -8,7 +8,7 @@ const Index = () => {
 
   useEffect(() => {
     dispatch(getGreetings());
-  }, []);
+  }, [dispatch]);
 
   return (
     <>
